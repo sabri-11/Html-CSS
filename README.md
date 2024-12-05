@@ -5,3 +5,5 @@ Vous pouvez remarquer que la disposition du site change en fonction de la taille
   - Une pour les écrans allant de 1000 à 2000 pixels
 
 Vous pouvez tester les deux dispositions en aggrandissant ou diminuant la taille de la fenêtre avec les commandes : ctrl + et ctrl - de votre clavier.
+
+Pensez à bien télécharger le dossier img egt le placer dans le même répertoire que les fichiers .html et .css pour un bon affichage du site.
