@@ -1,4 +1,4 @@
-@media only screen and (min-width:480px) and (max-width:979px){
+@media only screen and (min-width:400px) and (max-width:1000px){
 
     body{
         width: 959px;
@@ -53,7 +53,7 @@
 
 
 
-@media only screen and (min-width:979px) and (max-width:1680px){
+@media only screen and (min-width:1000px) and (max-width:2000px){
 
     body
     {
