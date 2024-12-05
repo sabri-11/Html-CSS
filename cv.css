@@ -1,0 +1,152 @@
+@media only screen and (min-width:480px) and (max-width:979px){
+
+    body{
+        width: 959px;
+        background-image: url("./img/code.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+        margin: auto;
+    }
+    
+    body > :nth-child(n){
+        background-color: #ffffff;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    } 
+    
+    
+    img{
+        width: 100%;
+    }
+    
+    h1, h2{
+        text-align: center;
+        color: black;
+    }
+    
+    header > div > h4, h3{
+        color:gray;
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+    
+    p, h4{
+        margin-left: 20px;
+    }
+    
+    main, aside, footer{
+        padding-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:960px) and (max-width:1680px){
+
+    body
+    {
+        display: grid;
+        width: 959px;
+        background-image: url("./img/code.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    }
+
+    header
+    {
+        display: grid;
+        grid-area: header;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". h1 ."
+        "img contact reseaux";
+        background-color: none;
+        color: white;
+
+    }
+    
+    body > :nth-child(n+2){
+        background-color: white;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .reseaux
+    {
+        grid-area: reseaux;
+    }
+
+    .contact
+    {
+        grid-area: contact;
+    }
+    
+    
+    img{
+        width: 100%;
+        grid-area: img;
+    }
+
+    h1
+    {
+        grid-area: h1;
+        color: white;
+    }
+    
+    h2{
+        text-align: center;
+        color: black;
+    }
+
+    header > div > h4
+    {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    h3{
+        color:gray;
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+    
+    p, h4{
+        margin-left: 20px;
+    }
+    
+    main, aside, footer{
+        padding-top: 20px;
+    }
+
+    aside
+    {
+        grid-area: aside;
+    }
+
+    main
+    {
+        grid-area: main;
+    }
+
+    footer{grid-area: footer;}
+}
